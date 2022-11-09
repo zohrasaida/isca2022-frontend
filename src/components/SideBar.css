@@ -2,6 +2,12 @@
 
 
 
+
+.txt:hover {
+    text-decoration: underline;
+}
+
 .SideBar{
-    display:block;
+   
+    position:relative;
 }
