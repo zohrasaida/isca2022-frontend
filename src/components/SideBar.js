@@ -1,28 +1,33 @@
 
 
-import Button from 'react-bootstrap/Button';
-import 
-function TypesExample() {
+import './SideBar.css';
+import ListGroup from 'react-bootstrap/ListGroup';
+//hover on word underline done
+function SideBarLeft() {
   return (
     <div class="SideBar">
-    
-      <Button variant="dark">HOME</Button>{' '}
-      <Button variant="dark">IMPORTANT DATES</Button>{' '}
-      <Button variant="dark">INVITED SPEAKERS</Button>{' '}
-      <Button variant="dark">BOOK OF ABSTRACT</Button>{' '}
-      <Button variant="dark">SCIENTIFIC COMITE</Button>{' '}
-      <Button variant="dark">LOGISTICS COMITE</Button>{' '}
-      <Button variant="dark">ABSTRACT SUBMISSION</Button>{' '}
-      <Button variant="dark">PROGRAMISCA2023</Button> 
-      <Button variant="dark">FIRST CIRCULAR</Button> 
-      <Button variant="dark">SECOND CIRCULAR</Button> 
-      <Button variant="dark">THIRD CIRCULAR</Button>
-      <Button variant="dark">SPONSORS</Button> 
-      <Button variant="dark">PARTICIPATION FEES</Button> 
-     
+    <ListGroup>
+      <ListGroup.Item ><text class="txt"> HOME</text> </ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> INVITED SPEAKERS</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> IMPORTANT DATES</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> BOOK OF ABSTRACTS</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> ABSTRACT SUBMISSION</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> FIRST CIRCULAR</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> SECOND CIRCULAR</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> THIRD CIRCULAR</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> SCIENTIFIC COMITE</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> LOGISTIC COMITE</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> SPONSORS</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> PROGRAM ISCA2023</text></ListGroup.Item>
+      <ListGroup.Item ><text class="txt"> PARTICIPATION FEES</text></ListGroup.Item>
+
+    </ListGroup>
 
     </div>
   );
 }
 
-export default TypesExample;
+export default SideBarLeft;
+
+
+
