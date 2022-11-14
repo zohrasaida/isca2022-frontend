@@ -1,10 +1,10 @@
 
-
-
 import Accordion from 'react-bootstrap/Accordion';
 
 function InvitedSpeakers() {
   return (
+
+    
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Invited Speakers</Accordion.Header>
@@ -30,6 +30,7 @@ function InvitedSpeakers() {
         </Accordion.Body>
       </Accordion.Item>
       </Accordion>
+
   );
 }
 

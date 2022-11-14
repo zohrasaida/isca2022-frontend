@@ -6,61 +6,100 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SideBarLeft from '../components/SideBar';
-import Image from 'react-bootstrap/Image'     
+import Image from 'react-bootstrap/Image' ;    
 
 function HomePage() {
   return (
     
         
-    <Container>
-      <Row>
-        <Col xs={6} md={4}> <SideBarLeft/></Col>
-        <Col xs={12} md={8} class="content">  ICSA2023<br></br>
+    <Container className="container">
+
+
+      
+        
+       <div className="main-info"> ICSA2023<br></br>
         Mars 17 - 19, 2023 <br></br>
         Tunis - Tunisia <br></br>
+        </div>
+<br></br><br></br><br></br><br></br><br></br>
 
+<div className="organization">
         Organized by :<br></br>
 
   Tunisian Physical Society (STP)<br></br>
-
+<br></br>
 
   With the participation of:<br></br>
-  -Laboratoire de Spectroscopie et Dynamique Moléculaire – Ecole Nationale Supérieure d’Ingénieurs
-de Tunis - Université de Tunis<br></br>
-- Laboratoire de Spectroscopie Atomique Moléculaire et Applications - Faculté des Sciences de
-Tunis – Université de Tunis El Manar <br></br>
--Laboratoire en Energie et Matière pour le Développement des Sciences Nucléaires CNSTN<br></br>
--Laboratoire de Physique Appliquée - Faculté des Sciences de Sfax – Université de Sfax<br></br>
--Centre National des Sciences et Technologies Nucléaires - Pôle Technologique - Sidi Thabet<br></br>
-- Université Gustave Eiffel Champs-sur-Marne France<br></br>
+  <br></br>
+  <br></br>
+
+  </div>
+  -Laboratory of Spectroscopy and Molecular Dynamics – Tunis National School of Engineering - University of Tunis<br></br>
+  - Laboratory of Molecular Atomic Spectroscopy and Applications - Faculty of Sciences of Tunis – University of Tunis El Manar <br></br>
+  -Laboratory in Energy and Matter for the Development of Nuclear Sciences CNSTN<br></br>
+  -Laboratory of Applied Physics - Faculty of Science of Sfax – University of Sfax<br></br>
+  -national center of science and nuclear technologies -technological pole-sidi thabet<br></br>
+  - Gustave Eiffel university Champs-sur-Marne France<br></br>
         
 {/*}        
 
   */}
-<div class="logos">
-<img src="png.png" alt="LOGO UTM" class="logo"></img>
-<img src="Gustave Eiffel.png" alt="LOGO GUSTAVE EIFFEL" class="logo"></img>
-<img src="cnstn.png" alt="LOGO cnstn" class="logo"></img>
-<img src="sfax.jpg" alt="LOGO universite sfax" class="logo"></img>
+  <br></br>
+  <br></br>
+  <br></br>
+
+<div className="logos">
+    <img className="logo" src="png.jpg" />
+    <img className="logo" src="GustaveEiffel.png" />
+    <img className="logo" src="cnstn.jpg"  />
+    <img className="logo" src="sfax.jpg" />
+    <img className="logo" src="UTM.jpg" />
+</div>
+
+<div className="topics">
+  <h4>
+    This year's conference Topics are:
+  </h4>
+  <p>
+    1. Infrared and Raman spectroscopy
+  </p>
+  <p>
+    2. VUV and UV- Visible spectroscopy
+  </p>
+  <p>
+    3. Luminescence spectroscopy
+  </p>
+  <p>
+    4. Time resolved optical spectroscopy 
+  </p>
+  <p>
+    5. X ray spectroscopy
+  </p>
+  <p>
+    6. Nuclear spectroscopy
+  </p>
+  <p>
+    7. NMR, EPR, and Mossbauer spectroscopy
+  </p>
+  <p>
+    8. TeraHertz spectroscopy
+  </p>
+  <p>
+    9. Molecular dynamics
+  </p>
+  <p>
+    10. Impedance spectroscopy
+  </p>
+  <p>
+    11. Theoretical methods and simulations on spectroscopy
+  </p>
+  <p>
+    12. Applied spectroscopy : material science, Astrophysics, environment, biology, imaging, sensors,logistic, quality control
+  </p>
+
 </div>
 
 
-Topics<br></br>
-1. Infrared and Raman spectroscopy<br></br>
-2. VUV and UV- Visible spectroscopy<br></br>
-3. Luminescence spectroscopy<br></br>
-4. Time resolved optical spectroscopy<br></br>
-5. X ray spectroscopy<br></br>
-6. Nuclear spectroscopy<br></br>
-7. NMR, EPR, and Mossbauer spectroscopy<br></br>
-8. TeraHertz spectroscopy<br></br>
-9. Molecular dynamics<br></br>
-10. Impedance spectroscopy<br></br>
-11. Theoretical methods and simulations on spectroscopy<br></br>
-12. Applied spectroscopy : material science, Astrophysics, environment, biology, imaging, sensors,<br></br>
-logistic, quality control<br></br>
-</Col>
-      </Row>
       
     </Container>
 
