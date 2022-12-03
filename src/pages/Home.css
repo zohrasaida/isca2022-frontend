@@ -2,13 +2,39 @@
 
 
 
-.content{
-    position: relative;
-
-    
-    
-}
-
 .logos{
-    display:flex;
+    display: flex;
+    margin: 2vh 0;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-content: space-between;
 }
+
+.logo{
+    width: 20%;
+}
+
+.container{
+    padding:80px 80px;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    
+  
+  }
+
+.main-info{
+    text-align: center;
+    font-size: x-large;
+    font-family: fantasy;
+}
+
+.organization{
+    text-align: center;
+}
+
+.topics{
+    text-align: center;
+    margin: 5vh auto;
+}
+
+

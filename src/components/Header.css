@@ -1,5 +1,7 @@
 
-.container.logo{
+
+
+/* .container.logo{
     position:relative;
     
 
@@ -12,3 +14,38 @@
 
 }
 
+
+.title{
+    width:500px;
+    height:190px;
+text-align:center;
+} */
+
+h5{
+    
+    font-size: 30px;
+  
+  color: black;
+  font-family: fantasy;
+  text-align: center;
+  display: contents;
+}
+.color-nav{
+    
+    background-color: #4f73ff2e;
+    height:120px;
+    
+
+  background-repeat: no-repeat;
+
+  background-size: contain;
+
+}
+
+
+.header-right{
+    justify-content: flex-start;
+}
+.logo{
+    height:100px;
+}
