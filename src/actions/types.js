@@ -1,0 +1,7 @@
+
+
+
+
+export const CONNECT_SUCCESS = "CONNECT_SUCCESS";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+export const CONNECT_FAIL = "CONNECT_FAIL";

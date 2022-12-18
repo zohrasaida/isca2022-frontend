@@ -1,5 +1,5 @@
 import 'react-bootstrap';
-import React from 'react';
+import React , { useState, useEffect } from 'react';
 import './App.css';
 import './pages/Home.css';
 import Footer from './components/Footer';
@@ -19,17 +19,27 @@ import ThirdCircular from './pages/ThirdCircular';
 import ParticipationFees from './pages/ParticipationFees';
 import ProgramICSA2023 from './pages/ProgramICSA2023';
 import ImportantDates from './pages/ImportantDates';
+//import ClientInterface from './pages/ClientInterface';
+import Logout from './components/Logout';
+import BdTable from './components/BdTable';
+import Login from './components/Login';
 
-import index from './index';
+import { dblClick } from '@testing-library/user-event/dist/click';
 function App() {
+
+
   return (
     <div className="App">
-      <Header/>
+     <Header/>
       <div className='body'>
       <div className='side'><SideBar/></div>
       <div className='content'> 
+  
+
       <BrowserRouter>
       <Routes>
+      <Route exact path='/BdTable' element={<BdTable/>} ></Route> 
+      {/* <Route exact path='/Login' element={<Login/>} ></Route>  */}
       <Route exact path='/Home' element={<Home/>} ></Route> 
       <Route exact path='/AbstractSubmission' element={<AbstractSubmission/>} ></Route> 
       <Route exact path='/InvitedSpeakers' element={<InvitedSpeakers/>} ></Route> 
@@ -42,16 +52,14 @@ function App() {
       <Route exact path='/SecondCircular' element={<SecondCircular/>} ></Route> 
       <Route exact path='/ThirdCircular' element={<ThirdCircular/>} ></Route> 
       <Route exact path='/ProgramICSA2023' element={<ProgramICSA2023/>} ></Route> 
-      
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
       </div>
       </div>
       <Footer/>
-      
     </div>
     
   );
 }
 
-export default App;
+export default App; 
