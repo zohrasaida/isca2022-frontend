@@ -1,36 +1,134 @@
 
-import Accordion from 'react-bootstrap/Accordion';
+import Table from 'react-bootstrap/Table';
 
 function InvitedSpeakers() {
   return (
 
-    
-    <Accordion defaultActiveKey="0">
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Invited Speakers</Accordion.Header>
-        <Accordion.Body>
-        1- Vincent BOUDON (France)
-2- Agnès PERRIN (France)<br></br>
-3- Alain COMPARGUE (France)<br></br>
-4- Fridolin KWABIA (France)<br></br>
-5- Claudine CREPIN (France)<br></br>
-6- Marc FONTANA (France)<br></br>
-7- Ha TRA (France)<br></br>
-8- Isabelle KLEINER (France)<br></br>
-9- Arnaud CUISSET (France)<br></br>
-10- Laurent MANCERON (France)<br></br>
-11- Majdi HOCHLAF (France)<br></br>
-12- Laurence PRIVOST (France)<br></br>
-13- Osman ADIGUZEL (Turkey)<br></br>
-14- Jean Michel HARTMAN (France)<br></br>
-15- Pascal Quinet (Belgique)<br></br>
-16- Bastien Vispoel (Belgian)<br></br>
-17- Taieb BEN DHIA (Tunisia)<br></br>
-18- Younes ABID (Tunisia)<br></br>
-        </Accordion.Body>
-      </Accordion.Item>
-      </Accordion>
+    <Table striped bordered hover>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Nationnality</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Vincent</td>
+              <td>BOUDON </td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Younes</td>
+              <td>ABID</td>
+              <td>Tunisia</td>
+             
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Taieb </td>
+              <td>BEN DHIA </td>
+              <td>Tunisia</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td >Bastien</td>
+              <td>Vispoel</td>
+              <td>Belgian</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Pascal</td>
+              <td>Quinet</td>
+              <td>Belgique</td>
+            </tr>
 
+            <tr>
+              <td>6</td>
+              <td >Jean Michel</td>
+              <td>HARTMAN</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td >Osman</td>
+              <td>ADIGUZEL</td>
+              <td>Turkey</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td >Laurence</td>
+              <td>PRIVOST </td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td >Majdi </td>
+              <td>HOCHLAF</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td >Laurent</td>
+              <td> MANCERON</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td >Arnaud</td>
+              <td>CUISSET</td>
+              <td>France</td>
+            </tr>
+
+            <tr>
+              <td>12</td>
+              <td >Isabelle</td>
+              <td>KLEINER</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td >Ha</td>
+              <td>TRA</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td >Marc</td>
+              <td>FONTANA</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>Claudine </td>
+              <td>CREPIN</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td >Fridolin</td>
+              <td>KWABIA</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>Alain</td>
+              <td>COMPARGUE</td>
+              <td>France</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              
+              <td >Agnès  </td>
+              <td>PERRIN </td>
+              <td>France</td>
+            </tr>
+</tbody>
+        </Table>
   );
 }
 

@@ -14,11 +14,8 @@ import './AbstractSubmission.css';
 
 function AbstractSubmission() {
   return (
+
     
-       
-
-
-
     <Form>
       <Row>
         <Col>
